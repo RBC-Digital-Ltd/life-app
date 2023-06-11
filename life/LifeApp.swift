@@ -11,7 +11,7 @@ import SwiftUI
 struct LifeApp: App {
   var body: some Scene {
     WindowGroup {
-      WeatherView(weatherViewModel: WeatherViewModel())
+      ScrumsView(scrums: DailyScrum.sampleData)
     }
   }
 }
