@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CE72B6B2A2EAB3A007B959E /* lifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B6A2A2EAB3A007B959E /* lifeApp.swift */; };
+		9C6D35382A31301000E60F01 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D35372A31301000E60F01 /* Theme.swift */; };
+		9C6D353A2A31309300E60F01 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D35392A31309300E60F01 /* DailyScrum.swift */; };
+		9C6D353C2A31313100E60F01 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D353B2A31313100E60F01 /* CardView.swift */; };
+		9C6D353E2A31341700E60F01 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D353D2A31341700E60F01 /* TrailingIconLabelStyle.swift */; };
+		9C6D35402A31357700E60F01 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D353F2A31357700E60F01 /* ScrumsView.swift */; };
+		9C6D35432A313F2A00E60F01 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D35422A313F2A00E60F01 /* Weather.swift */; };
+		9C6D35452A3141C600E60F01 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D35442A3141C600E60F01 /* WeatherView.swift */; };
+		9CE72B6B2A2EAB3A007B959E /* LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B6A2A2EAB3A007B959E /* LifeApp.swift */; };
 		9CE72B6D2A2EAB3A007B959E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B6C2A2EAB3A007B959E /* ContentView.swift */; };
 		9CE72B6F2A2EAB3A007B959E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE72B6E2A2EAB3A007B959E /* Assets.xcassets */; };
 		9CE72B722A2EAB3A007B959E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE72B712A2EAB3A007B959E /* Preview Assets.xcassets */; };
-		9CE72B7C2A2EAB3A007B959E /* lifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B7B2A2EAB3A007B959E /* lifeTests.swift */; };
-		9CE72B862A2EAB3A007B959E /* lifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B852A2EAB3A007B959E /* lifeUITests.swift */; };
-		9CE72B882A2EAB3A007B959E /* lifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B872A2EAB3A007B959E /* lifeUITestsLaunchTests.swift */; };
+		9CE72B7C2A2EAB3A007B959E /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B7B2A2EAB3A007B959E /* LifeTests.swift */; };
+		9CE72B862A2EAB3A007B959E /* LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B852A2EAB3A007B959E /* LifeUITests.swift */; };
+		9CE72B882A2EAB3A007B959E /* LifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE72B872A2EAB3A007B959E /* LifeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C6D35372A31301000E60F01 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9C6D35392A31309300E60F01 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		9C6D353B2A31313100E60F01 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9C6D353D2A31341700E60F01 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		9C6D353F2A31357700E60F01 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		9C6D35412A313EEE00E60F01 /* life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = life.entitlements; sourceTree = "<group>"; };
+		9C6D35422A313F2A00E60F01 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		9C6D35442A3141C600E60F01 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		9CE72B672A2EAB3A007B959E /* life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = life.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CE72B6A2A2EAB3A007B959E /* lifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeApp.swift; sourceTree = "<group>"; };
+		9CE72B6A2A2EAB3A007B959E /* LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeApp.swift; sourceTree = "<group>"; };
 		9CE72B6C2A2EAB3A007B959E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CE72B6E2A2EAB3A007B959E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE72B712A2EAB3A007B959E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9CE72B772A2EAB3A007B959E /* lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CE72B7B2A2EAB3A007B959E /* lifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeTests.swift; sourceTree = "<group>"; };
+		9CE72B7B2A2EAB3A007B959E /* LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTests.swift; sourceTree = "<group>"; };
 		9CE72B812A2EAB3A007B959E /* lifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CE72B852A2EAB3A007B959E /* lifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUITests.swift; sourceTree = "<group>"; };
-		9CE72B872A2EAB3A007B959E /* lifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CE72B852A2EAB3A007B959E /* LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITests.swift; sourceTree = "<group>"; };
+		9CE72B872A2EAB3A007B959E /* LifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C6D35352A312FB700E60F01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C6D353B2A31313100E60F01 /* CardView.swift */,
+				9C6D353D2A31341700E60F01 /* TrailingIconLabelStyle.swift */,
+				9C6D353F2A31357700E60F01 /* ScrumsView.swift */,
+				9C6D35442A3141C600E60F01 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C6D35362A31300200E60F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C6D35372A31301000E60F01 /* Theme.swift */,
+				9C6D35392A31309300E60F01 /* DailyScrum.swift */,
+				9C6D35422A313F2A00E60F01 /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9CE72B5E2A2EAB3A007B959E = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +130,10 @@
 		9CE72B692A2EAB3A007B959E /* life */ = {
 			isa = PBXGroup;
 			children = (
-				9CE72B6A2A2EAB3A007B959E /* lifeApp.swift */,
+				9C6D35412A313EEE00E60F01 /* life.entitlements */,
+				9C6D35362A31300200E60F01 /* Models */,
+				9C6D35352A312FB700E60F01 /* Views */,
+				9CE72B6A2A2EAB3A007B959E /* LifeApp.swift */,
 				9CE72B6C2A2EAB3A007B959E /* ContentView.swift */,
 				9CE72B6E2A2EAB3A007B959E /* Assets.xcassets */,
 				9CE72B702A2EAB3A007B959E /* Preview Content */,
@@ -113,7 +152,7 @@
 		9CE72B7A2A2EAB3A007B959E /* lifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9CE72B7B2A2EAB3A007B959E /* lifeTests.swift */,
+				9CE72B7B2A2EAB3A007B959E /* LifeTests.swift */,
 			);
 			path = lifeTests;
 			sourceTree = "<group>";
@@ -121,8 +160,8 @@
 		9CE72B842A2EAB3A007B959E /* lifeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9CE72B852A2EAB3A007B959E /* lifeUITests.swift */,
-				9CE72B872A2EAB3A007B959E /* lifeUITestsLaunchTests.swift */,
+				9CE72B852A2EAB3A007B959E /* LifeUITests.swift */,
+				9CE72B872A2EAB3A007B959E /* LifeUITestsLaunchTests.swift */,
 			);
 			path = lifeUITests;
 			sourceTree = "<group>";
@@ -143,6 +182,8 @@
 			dependencies = (
 			);
 			name = life;
+			packageProductDependencies = (
+			);
 			productName = life;
 			productReference = 9CE72B672A2EAB3A007B959E /* life.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 9CE72B5E2A2EAB3A007B959E;
+			packageReferences = (
+				9C2E3AE12A354D7B00F7540C /* XCRemoteSwiftPackageReference "swift" */,
+			);
 			productRefGroup = 9CE72B682A2EAB3A007B959E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6D35432A313F2A00E60F01 /* Weather.swift in Sources */,
+				9C6D353A2A31309300E60F01 /* DailyScrum.swift in Sources */,
+				9C6D353E2A31341700E60F01 /* TrailingIconLabelStyle.swift in Sources */,
+				9C6D35382A31301000E60F01 /* Theme.swift in Sources */,
+				9C6D35402A31357700E60F01 /* ScrumsView.swift in Sources */,
 				9CE72B6D2A2EAB3A007B959E /* ContentView.swift in Sources */,
-				9CE72B6B2A2EAB3A007B959E /* lifeApp.swift in Sources */,
+				9C6D35452A3141C600E60F01 /* WeatherView.swift in Sources */,
+				9CE72B6B2A2EAB3A007B959E /* LifeApp.swift in Sources */,
+				9C6D353C2A31313100E60F01 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE72B7C2A2EAB3A007B959E /* lifeTests.swift in Sources */,
+				9CE72B7C2A2EAB3A007B959E /* LifeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE72B882A2EAB3A007B959E /* lifeUITestsLaunchTests.swift in Sources */,
-				9CE72B862A2EAB3A007B959E /* lifeUITests.swift in Sources */,
+				9CE72B882A2EAB3A007B959E /* LifeUITestsLaunchTests.swift in Sources */,
+				9CE72B862A2EAB3A007B959E /* LifeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = life/life.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"life/Preview Content\"";
@@ -443,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = life/life.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"life/Preview Content\"";
@@ -583,6 +636,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C2E3AE12A354D7B00F7540C /* XCRemoteSwiftPackageReference "swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 9CE72B5F2A2EAB3A007B959E /* Project object */;
 }
